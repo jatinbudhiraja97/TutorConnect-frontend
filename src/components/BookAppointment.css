@@ -1,0 +1,124 @@
+.booking-appointment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.booking-appointment-title {
+    font-size: 36px;
+    color: #8B0000; /* Dark red color matching the 'Book Now' button */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 50%; /* Adjust the width as needed */
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-bottom: 30px; /* Add more space below the search bar */
+}
+
+.search-bar input {
+    width: 200%;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 25px; /* Rounded corners */
+    border: 2px solid #8B0000; /* Dark red border */
+    text-align: center;
+    margin-left: aut;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for better visibility */
+}
+
+.professor-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.professor-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.professor-card h3 {
+    color: #8B0000; /* Dark red color matching the title */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.professor-card p {
+    color: #8B0000; /* Dark red color matching the title */
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.book-button {
+    background-color: #8B0000; /* Dark red background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.book-button:hover {
+    background-color: #A52A2A; /* Slightly lighter red on hover */
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    color: #8B0000;
+    width: 400px;
+}
+
+.confirm-button, .close-button {
+    background-color: #8B0000; /* Dark red background */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px;
+}
+
+.confirm-button:hover, .close-button:hover {
+    background-color: #A52A2A; /* Slightly lighter red on hover */
+}
+
+.modal-content input[type="date"],
+.modal-content select {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+

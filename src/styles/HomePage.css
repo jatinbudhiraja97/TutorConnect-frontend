@@ -1,0 +1,95 @@
+/* src/styles/HomePage.css */
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url('../background/e_learning.jpg'); /* Update the path if necessary */
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Ensure items are centered vertically */
+    padding: 20px 50px; /* Adjusted padding for better alignment */
+    position: absolute; /* Position the navbar absolutely */
+    top: 0; /* Stick to the top */
+    background-color: rgba(0, 0, 0, 0.7); /* Darker background for better contrast */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white; /* Ensure the logo text is white */
+}
+
+.navbar .buttons {
+    display: flex;
+}
+
+.navbar .buttons button {
+    padding: 10px 20px;
+    margin-left: 10px; /* Use margin-left instead of margin-right */
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar .buttons button:last-child {
+    background-color: #ff6347; /* A vibrant color (Tomato) to match the background */
+    color: white;
+}
+
+.navbar .buttons button:hover {
+    background-color: white;
+    color: black;
+}
+
+.main-content {
+    margin-top: 100px; /* Increased margin to compensate for the navbar */
+    background-color: rgba(0, 0, 0, 0.6); /* Slightly lighter background to contrast with the navbar */
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white; /* Ensure the main heading is white */
+}
+
+.main-content input {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc; /* Use a lighter border color */
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.main-content input:focus {
+    border-color: #ff6347; /* Match the focus color with the button */
+    box-shadow: 0 0 10px rgba(255, 99, 71, 0.8); /* Tomato color for the focus shadow */
+}
+
+.main-content a {
+    display: block;
+    margin-top: 15px;
+    color: #f0e68c; /* A softer, warmer color for the link */
+    text-decoration: none;
+}
+
+.main-content a:hover {
+    color: #ff6347; /* Tomato color on hover */
+}

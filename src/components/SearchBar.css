@@ -1,0 +1,35 @@
+.search-bar {
+    position: relative;
+    width: 100%;
+}
+
+.search-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.suggestions-list {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    background-color: rgb(7, 4, 4);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(135, 38, 38, 0.2);
+    z-index: 1000;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.suggestion-item {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.suggestion-item:hover {
+    background-color: #ec1111;
+}

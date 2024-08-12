@@ -1,0 +1,22 @@
+.view-bookings-container {
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.bookings-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.booking-tile {
+    background-color: rgba(0, 0, 0, 0.7);
+    margin: 15px;
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: left;
+    color: white;
+}
